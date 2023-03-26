@@ -72,9 +72,10 @@ h2{
 
 h3{
     font-family: 'Playfair Display', serif;
-    font-size:1.5rem;
+    font-size:3 rem;
     color:rgb(150, 150, 26);
 }
+
 
 
 /*Sección Hero */
@@ -223,6 +224,7 @@ h3{
 .videos{
     padding: 30px 30px 100px 30px;
     min-height: 500px;
+    font-size: 20px;
 }
 
 .card-header{
@@ -239,7 +241,12 @@ h3{
 
 .list-group-item{
     background-color: rgb(252, 223, 243);
+    font-family: 'Alkatra', cursive;
+    color:black;
+    font-size: 18px;
 }
+
+
     
 
 /* Sección Testimonios*/
@@ -298,16 +305,26 @@ h3{
 
 /*Sección Novedades*/
 .novedades{
-    background-color: rgb(252, 223, 243);
+    align-content: center;
+    
 }
 
-.hola-cerrar-sesion{
+.titulo-novedades{
+    font-family: 'Alkatra', cursive;
+    color:blueviolet;
+    font-size: 18px;
+}
+
+.boton-cerrar-sesion{
     text-align:end;
+    margin-block-end: 10px;
     
-
     
 }
 
+.boton-nuevo{
+    text-align:end ;
+}
 
 /* Sección Contacto*/
 

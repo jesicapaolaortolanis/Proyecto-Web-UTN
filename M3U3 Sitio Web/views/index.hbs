@@ -294,13 +294,14 @@
 
 <!-- Sección Novedades -->
 
-<div class ='class="videos justify-content-start seccion-rosa d-flex flex-column row my-3'>
-  <div id="novedades" class="col-md-5 offset-md-2 scroll_section">
-    <h1 class="seccion-titulo texto-negro">Novedades</h1>
+
+<div id= "novedades" class ="justify-content-start seccion-rosa d-flex flex-column row my-6" >
+  <div class="col-md-6 offset-md-3 scroll_section">
+    <h2 class="seccion-titulo texto-negro offset-md-3">Novedades sobre Tejido</h2>
     <ul class="lista-novedades">
       {{#each novedades}}
    
-  <div class="col">
+  <div class="col titulo-novedades">
     <div class="card">
       <a href="#" data-bs-toggle="modal" data-bs-target="#modal{{id}}"><img src= "{{imagen}}" class="card-img-top" alt="Imagen relacionada a la noticia">{{Titulo}}</a>
       <div class="card-body">
